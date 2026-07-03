@@ -162,9 +162,9 @@
 
   /* ---------- Build reviews (real guest quotes) ---------- */
   const REVIEWS = [
-    { stars: 5, quote: 'Great authentic Mexican tacos! Best tasty tacos in town, hands down.', author: 'Google reviewer', source: 'Google' },
-    { stars: 5, quote: 'Staff is awesome. I love the burritos and tacos so much. Highly recommend.', author: 'Google reviewer', source: 'Google' },
-    { stars: 5, quote: 'Affordable for what you receive — some of the biggest burritos around, and the service is terrific.', author: 'Local guest', source: 'Google' },
+    { stars: 5, quote: 'Great authentic Mexican tacos! Best tasty tacos in town, hands down.', author: 'Local guest', source: 'From our reviews' },
+    { stars: 5, quote: 'Staff is awesome. I love the burritos and tacos so much. Highly recommend.', author: 'Verified diner', source: 'From our reviews' },
+    { stars: 5, quote: 'Affordable for what you receive — some of the biggest burritos around, and the service is terrific.', author: 'Local guest', source: 'From our reviews' },
   ];
   const revWrap = document.getElementById('reviewsWrapper');
   if (revWrap) {
