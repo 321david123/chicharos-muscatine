@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chicharo's Mexican Grill | Muscatine, Iowa</title>
+  <meta name="description" content="Family-owned Mexican grill in Muscatine, Iowa. Homemade tamales, hearty street tacos, burritos &amp; bowls made from scratch — dine-in, pickup &amp; delivery. Gluten-free friendly." />
+  <meta name="theme-color" content="#B21E1E" />
+
+  <!-- Open Graph / social -->
+  <meta property="og:type" content="restaurant" />
+  <meta property="og:title" content="Chicharo's Mexican Grill" />
+  <meta property="og:description" content="Family-owned taquería in Muscatine, Iowa — homemade tamales &amp; hearty street tacos, made from scratch." />
+  <meta property="og:image" content="https://321david123.github.io/chicharos-muscatine/assets/og-image.jpg" />
+  <meta property="og:image:width" content="1600" />
+  <meta property="og:image:height" content="1933" />
+  <meta property="og:url" content="https://321david123.github.io/chicharos-muscatine/" />
+  <link rel="canonical" href="https://321david123.github.io/chicharos-muscatine/" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Chicharo's Mexican Grill" />
+  <meta name="twitter:description" content="Family-owned taquería in Muscatine, Iowa — homemade tamales &amp; hearty street tacos." />
+  <meta name="twitter:image" content="https://321david123.github.io/chicharos-muscatine/assets/og-image.jpg" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="apple-touch-icon" href="assets/favicon.svg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Inter:wght@400;500;600;700&family=Pacifico&display=swap" rel="stylesheet" />
+
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Chicharo's Mexican Grill",
+    "servesCuisine": "Mexican",
+    "image": "https://321david123.github.io/chicharos-muscatine/assets/og-image.jpg",
+    "telephone": "+1-563-299-0659",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1903 Park Ave Ste. 6500",
+      "addressLocality": "Muscatine",
+      "addressRegion": "IA",
+      "postalCode": "52761",
+      "addressCountry": "US"
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "11:00", "closes": "20:00" }
+    ],
+    "menu": "https://chicharosmexgrill.square.site/"
+  }
+  </script>
+</head>
+<body>
+  <!-- Skip link -->
+  <a href="#menu" class="skip-link">Skip to menu</a>
+
+  <!-- Grain / noise overlay -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#top" class="nav__brand" aria-label="Chicharo's home">
+        <span class="nav__mark" aria-hidden="true">C</span>
+        <span class="nav__name">Chicharo's</span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#story">Story</a>
+        <a href="#signature">Signatures</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#visit">Visit</a>
+      </nav>
+      <div class="nav__actions">
+        <a href="tel:+15632990659" class="btn btn--ghost nav__call">(563) 299-0659</a>
+        <a href="https://chicharosmexgrill.square.site/" target="_blank" rel="noopener" class="btn btn--solid">Order Online</a>
+      </div>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="overlayMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Full-screen overlay menu -->
+  <div class="overlay" id="overlayMenu" aria-hidden="true">
+    <nav class="overlay__nav" aria-label="Mobile">
+      <a href="#story">Story</a>
+      <a href="#signature">Signatures</a>
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <div class="overlay__cta">
+      <a href="tel:+15632990659" class="btn btn--ghost">Call (563) 299-0659</a>
+      <a href="https://chicharosmexgrill.square.site/" target="_blank" rel="noopener" class="btn btn--solid">Order Online</a>
+    </div>
+  </div>
+
+  <main id="top">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="hero">
+      <div class="hero__media" aria-hidden="true">
+        <img class="hero__img" src="assets/hero-tacos.jpg" alt="" fetchpriority="high" decoding="async" />
+        <div class="hero__scrim"></div>
+      </div>
+      <div class="hero__content">
+        <p class="hero__eyebrow">Muscatine, Iowa &bull; Cocina Familiar</p>
+        <h1 class="hero__title">
+          <span class="hero__script">Chicharo's</span>
+          <span class="hero__sub">Mexican Grill</span>
+        </h1>
+        <p class="hero__tagline">Hecho a mano — homemade tamales &amp; hearty street tacos, made from scratch every day.</p>
+        <div class="hero__actions">
+          <a href="https://chicharosmexgrill.square.site/" target="_blank" rel="noopener" class="btn btn--solid btn--lg">Order Online</a>
+          <a href="#menu" class="btn btn--outline btn--lg">View the Menu</a>
+        </div>
+        <div class="hero__rating">
+          <span class="stars" aria-hidden="true">★★★★★</span>
+          <span>94% of guests recommend us &bull; "Best tasty tacos in town, hands down."</span>
+        </div>
+      </div>
+      <a href="#story" class="hero__scrollcue" aria-label="Scroll down">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ============ STORY ============ -->
+    <section class="story" id="story">
+      <div class="story__wrap">
+        <div class="story__text">
+          <p class="kicker"><span class="kicker__line"></span>Nuestra Historia</p>
+          <h2 class="story__title">A little family kitchen with a whole lot of flavor.</h2>
+          <p>Chicharo's is a family-owned Mexican grill in the heart of Muscatine — the kind of place where the salsas are fire-roasted in house, the corn chips are cut and fried fresh, and the <em>masa</em> for our tamales is made by hand. No shortcuts, just the recipes our familia grew up on.</p>
+          <p>Regulars come back for the <em>tacos de asada</em>, the loaded burritos, and a queso worth the drive. It's honest, generous, made-to-order Mexican food — and it's why folks around town keep calling us the best tacos they've had.</p>
+          <a href="#signature" class="link-underline">Meet the signatures &rarr;</a>
+          <div class="story__stats">
+            <div class="stat">
+              <span class="stat__num" data-count="94" data-suffix="%">0</span>
+              <span class="stat__label">Guests recommend</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num" data-count="100" data-suffix="%">0</span>
+              <span class="stat__label">Made from scratch</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num" data-count="6" data-suffix=" days">0</span>
+              <span class="stat__label">Open weekly</span>
+            </div>
+          </div>
+        </div>
+        <div class="story__media">
+          <img src="assets/homemade-spread.jpg" alt="A spread of homemade Mexican dishes served in clay bowls at Chicharo's" loading="lazy" decoding="async" width="600" height="450" />
+          <div class="story__badge">
+            <span class="story__badge-script">Hecho a mano</span>
+            <span class="story__badge-sub">Familia &amp; Sabor</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SIGNATURE DISHES ============ -->
+    <section class="sig" id="signature">
+      <div class="sig__head">
+        <p class="kicker kicker--center"><span class="kicker__line"></span>Lo Mejor de la Casa<span class="kicker__line"></span></p>
+        <h2 class="section-title">Signatures worth the trip</h2>
+      </div>
+
+      <article class="sig__row">
+        <div class="sig__img reveal-img">
+          <img src="assets/homemade-spread.jpg" alt="Homemade pork tamales steamed in corn husks, served with rice and salsa" loading="lazy" decoding="async" width="500" height="600" />
+        </div>
+        <div class="sig__copy">
+          <span class="sig__index">01</span>
+          <h3 class="sig__name">Homemade Tamales</h3>
+          <p>Our house specialty. Hand-spread masa and slow-cooked filling, steamed in the husk the old-fashioned way. Ask what we're steaming today — when they're gone, they're gone.</p>
+          <span class="sig__price">House specialty</span>
+          <a href="tel:+15632990659" class="link-underline sig__link">Call to reserve &rarr;</a>
+        </div>
+      </article>
+
+      <article class="sig__row sig__row--rev">
+        <div class="sig__img reveal-img">
+          <img src="assets/street-tacos.jpg" alt="Street-style tacos de asada with cilantro, onion and lime" loading="lazy" decoding="async" width="500" height="600" />
+        </div>
+        <div class="sig__copy">
+          <span class="sig__index">02</span>
+          <h3 class="sig__name">Street Tacos</h3>
+          <p>Seared marinated asada, chile-marinated pastor, braised carnitas or guajillo chicken — piled on soft tortillas with cilantro, onion and lime and your choice of house salsa. Simple, done right.</p>
+          <span class="sig__price">$2.00 each</span>
+          <a href="#menu" class="link-underline sig__link">See all the tacos &rarr;</a>
+        </div>
+      </article>
+
+      <article class="sig__row">
+        <div class="sig__img reveal-img">
+          <img src="assets/burrito.jpg" alt="Burrito Gordo loaded with steak, chorizo, pastor and chicken" loading="lazy" decoding="async" width="500" height="600" />
+        </div>
+        <div class="sig__copy">
+          <span class="sig__index">03</span>
+          <h3 class="sig__name">Burrito Gordo</h3>
+          <p>The big one. Seared asada, chorizo, chile-marinated pork and pollo enchilado, rolled with rice and beans. One of the biggest — and best-loved — burritos in town.</p>
+          <span class="sig__price">$11.00</span>
+          <a href="#menu" class="link-underline sig__link">More burritos &rarr;</a>
+        </div>
+      </article>
+
+      <article class="sig__row sig__row--rev">
+        <div class="sig__img reveal-img">
+          <img src="assets/guacamole.jpg" alt="Fresh guacamole with lime and housemade corn chips" loading="lazy" decoding="async" width="500" height="600" />
+        </div>
+        <div class="sig__copy">
+          <span class="sig__index">04</span>
+          <h3 class="sig__name">Queso &amp; Guacachips</h3>
+          <p>Cheesy queso with pico de gallo and chipotle, or fresh avocado with lime — both served with corn chips we cut and fry in house. The starter everyone fights over.</p>
+          <span class="sig__price">from $4.25</span>
+          <a href="#menu" class="link-underline sig__link">Start here &rarr;</a>
+        </div>
+      </article>
+    </section>
+
+    <!-- ============ BANNER ============ -->
+    <section class="banner" aria-label="Gluten-free friendly">
+      <div class="banner__inner">
+        <span class="banner__script">Para todos en la mesa</span>
+        <h2 class="banner__title">Gluten-Free Friendly</h2>
+        <p>Corn tortillas, fresh salsas and grilled meats — plenty on our menu is made <strong>gluten-free</strong>. Just ask and we'll steer you right.</p>
+      </div>
+    </section>
+
+    <!-- ============ FULL MENU ============ -->
+    <section class="menu" id="menu">
+      <div class="menu__head">
+        <p class="kicker kicker--center"><span class="kicker__line"></span>El Menú<span class="kicker__line"></span></p>
+        <h2 class="section-title">The full menu</h2>
+        <p class="menu__note">Made to order, from scratch. Tap a category to explore.</p>
+      </div>
+
+      <div class="menu__tabs" id="menuTabs" role="tablist" aria-label="Menu categories"></div>
+      <div class="menu__panels" id="menuPanels"></div>
+
+      <div class="menu__cta">
+        <a href="https://chicharosmexgrill.square.site/" target="_blank" rel="noopener" class="btn btn--solid btn--lg">Order Online</a>
+        <a href="tel:+15632990659" class="btn btn--outline btn--lg">Call to Order</a>
+      </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section class="gallery" id="gallery">
+      <div class="menu__head">
+        <p class="kicker kicker--center"><span class="kicker__line"></span>La Galería<span class="kicker__line"></span></p>
+        <h2 class="section-title">Straight off the grill</h2>
+      </div>
+      <div class="swiper gallery__swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide gallery__slide"><img src="assets/street-tacos.jpg" alt="Street-style tacos with cilantro and onion" loading="lazy" decoding="async" /></div>
+          <div class="swiper-slide gallery__slide"><img src="assets/carnitas-closeup.jpg" alt="Close-up of carnitas tacos" loading="lazy" decoding="async" /></div>
+          <div class="swiper-slide gallery__slide"><img src="assets/burrito.jpg" alt="A loaded Chicharo's burrito" loading="lazy" decoding="async" /></div>
+          <div class="swiper-slide gallery__slide"><img src="assets/homemade-spread.jpg" alt="A homemade Mexican spread in clay bowls" loading="lazy" decoding="async" /></div>
+          <div class="swiper-slide gallery__slide"><img src="assets/plated-tacos.jpg" alt="Plated tacos with fresh toppings and lime" loading="lazy" decoding="async" /></div>
+          <div class="swiper-slide gallery__slide"><img src="assets/guacamole.jpg" alt="Fresh guacamole and housemade chips" loading="lazy" decoding="async" /></div>
+          <div class="swiper-slide gallery__slide"><img src="assets/salsa.jpg" alt="Fire-roasted house salsa" loading="lazy" decoding="async" /></div>
+          <div class="swiper-slide gallery__slide"><img src="assets/quesadilla.jpg" alt="Quesadilla Grande with melted cheese" loading="lazy" decoding="async" /></div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- ============ FEATURES ============ -->
+    <section class="features" aria-label="What we offer">
+      <div class="features__head">
+        <p class="kicker kicker--center"><span class="kicker__line"></span>Por qué Chicharo's<span class="kicker__line"></span></p>
+        <h2 class="section-title">Why locals keep coming back</h2>
+      </div>
+      <div class="features__grid">
+        <div class="feature">
+          <svg class="feature__ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3v9a5 5 0 0 0 10 0V3M12 17v4M5 3h14"/></svg>
+          <h3>Dine-In</h3>
+          <p>A friendly family table in the Muscatine Mall — quick, casual and welcoming.</p>
+        </div>
+        <div class="feature">
+          <svg class="feature__ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1.2 11.2a1.5 1.5 0 0 1-1.5 1.3H7.7a1.5 1.5 0 0 1-1.5-1.3L5 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+          <h3>Pickup &amp; Curbside</h3>
+          <p>Call ahead at (563) 299-0659 and we'll have it bagged and ready to go.</p>
+        </div>
+        <div class="feature">
+          <svg class="feature__ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 16V8a1 1 0 0 1 1-1h9v9M13 9h4l3 3.5V16M3 16h17"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></svg>
+          <h3>Delivery</h3>
+          <p>Order in on DoorDash, Uber Eats &amp; Postmates — Chicharo's, right to your door.</p>
+        </div>
+        <div class="feature">
+          <svg class="feature__ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21c5-3 8-6.5 8-11a4 4 0 0 0-8-1 4 4 0 0 0-8 1c0 4.5 3 8 8 11z"/><path d="M12 9v8"/></svg>
+          <h3>Gluten-Free Friendly</h3>
+          <p>Corn tortillas, grilled meats and fresh salsas — lots of options, just ask.</p>
+        </div>
+        <div class="feature">
+          <svg class="feature__ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 14a8 8 0 0 1 16 0M3 14h18l-1.5 4.5a1.5 1.5 0 0 1-1.4 1H5.9a1.5 1.5 0 0 1-1.4-1L3 14zM12 6V3"/></svg>
+          <h3>Made From Scratch</h3>
+          <p>Chips cut and fried in house, salsas fire-roasted, masa made by hand.</p>
+        </div>
+        <div class="feature">
+          <svg class="feature__ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="7" r="3"/><circle cx="16.5" cy="8.5" r="2.2"/><path d="M4 20v-1a5 5 0 0 1 10 0v1M14.5 20v-.5a4 4 0 0 1 5.5-3.7"/></svg>
+          <h3>Kids' Menu</h3>
+          <p>Little-one favorites so the whole familia leaves happy and full.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ REVIEWS ============ -->
+    <section class="reviews" id="reviews">
+      <div class="menu__head">
+        <p class="kicker kicker--center kicker--light"><span class="kicker__line"></span>Lo que dicen<span class="kicker__line"></span></p>
+        <h2 class="section-title section-title--light">Loved around Muscatine</h2>
+      </div>
+      <div class="swiper reviews__swiper">
+        <div class="swiper-wrapper" id="reviewsWrapper"></div>
+        <div class="swiper-pagination reviews__pag"></div>
+      </div>
+    </section>
+
+    <!-- ============ VISIT ============ -->
+    <section class="visit" id="visit">
+      <div class="visit__grid">
+        <div class="visit__info">
+          <p class="kicker"><span class="kicker__line"></span>Visítanos</p>
+          <h2 class="section-title">Find us in Muscatine</h2>
+          <div class="visit__block">
+            <h3>Address</h3>
+            <p><a href="https://www.google.com/maps?q=Chicharo%27s+Mexican+Grill,+1903+Park+Ave,+Muscatine,+IA+52761" target="_blank" rel="noopener">1903 Park Ave, Ste. 6500<br />Muscatine, IA 52761</a></p>
+          </div>
+          <div class="visit__block">
+            <h3>Phone</h3>
+            <p><a href="tel:+15632990659">(563) 299-0659</a></p>
+          </div>
+          <div class="visit__block">
+            <h3>Hours</h3>
+            <table class="hours">
+              <tbody>
+                <tr><th scope="row">Mon – Sat</th><td>11:00 AM – 8:00 PM</td></tr>
+                <tr><th scope="row">Sunday</th><td>Closed</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="visit__actions">
+            <a href="https://chicharosmexgrill.square.site/" target="_blank" rel="noopener" class="btn btn--solid">Order Online</a>
+            <a href="tel:+15632990659" class="btn btn--outline">Call Us</a>
+          </div>
+        </div>
+        <div class="visit__map">
+          <iframe
+            title="Map to Chicharo's Mexican Grill"
+            src="https://www.google.com/maps?q=Chicharo%27s+Mexican+Grill,+1903+Park+Ave,+Muscatine,+IA+52761&output=embed"
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <span class="nav__mark" aria-hidden="true">C</span>
+        <span class="footer__script">Chicharo's</span>
+        <p class="footer__tag">Homemade tamales &amp; hearty street tacos, hecho a mano.</p>
+      </div>
+      <div class="footer__col">
+        <h4>Visit</h4>
+        <p>1903 Park Ave, Ste. 6500<br />Muscatine, IA 52761</p>
+        <p><a href="tel:+15632990659">(563) 299-0659</a></p>
+      </div>
+      <div class="footer__col">
+        <h4>Hours</h4>
+        <p>Mon–Sat 11a–8p<br />Sun Closed</p>
+      </div>
+      <div class="footer__col">
+        <h4>Order &amp; Follow</h4>
+        <ul class="footer__links">
+          <li><a href="https://chicharosmexgrill.square.site/" target="_blank" rel="noopener">Order Online</a></li>
+          <li><a href="https://www.instagram.com/chicharosmexicangrill/" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://www.facebook.com/ChicharosMexicanGrill/" target="_blank" rel="noopener">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bar">
+      <p>&copy; <span id="year">2026</span> Chicharo's Mexican Grill. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Sticky mobile action bar -->
+  <div class="actionbar" aria-label="Quick actions">
+    <a href="tel:+15632990659" class="actionbar__btn"><svg class="actionbar__ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 4h3l1.4 4-2 1.4a11 11 0 0 0 5.2 5.2l1.4-2 4 1.4v3a2 2 0 0 1-2.2 2A16 16 0 0 1 4.5 6.2 2 2 0 0 1 6.5 4z"/></svg>Call</a>
+    <a href="https://chicharosmexgrill.square.site/" target="_blank" rel="noopener" class="actionbar__btn actionbar__btn--primary"><svg class="actionbar__ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1.2 11.2a1.5 1.5 0 0 1-1.5 1.3H7.7a1.5 1.5 0 0 1-1.5-1.3L5 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>Order</a>
+    <a href="https://www.google.com/maps?q=Chicharo%27s+Mexican+Grill,+1903+Park+Ave,+Muscatine,+IA+52761" target="_blank" rel="noopener" class="actionbar__btn"><svg class="actionbar__ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-5.6 7-11a7 7 0 0 0-14 0c0 5.4 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>Map</a>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+  <script src="script.js"></script>
+  <script>/* visibility failsafe: show content even if GSAP is delayed/blocked/throttled */setTimeout(function(){document.querySelectorAll(".reveal,[data-reveal]").forEach(function(e){e.classList.add("is-in")});document.querySelectorAll("[data-hero-line],.hero__title .line>span,.hero__line,.hero__title .ltr").forEach(function(e){e.style.opacity="1";e.style.transform="none";e.style.visibility="visible"})},2200);</script>
+</body>
+</html>
